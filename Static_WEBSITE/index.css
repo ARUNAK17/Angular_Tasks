@@ -1,0 +1,122 @@
+/*CSS is used to target any tag of the HTML file
+To identify the ID give # before the ID 
+default width = screen width
+default height =0
+padding = adding inner space
+margin = outer space*/ 
+
+body{
+    margin: 0px;
+    background-color: rgb(215, 247, 247);
+}
+
+#header,#footer{
+    background-color: red;
+    color: whitesmoke; /* text color */
+   /* height: 60px;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;      /*to stretch to the header*/
+}
+
+#title{
+     border: 2px solid whitesmoke;
+     width: 150px;
+     margin: 10px;
+     padding: 10px;
+     margin-left: 70px;
+     font-size: 20px;
+     font-weight: bold;
+     text-shadow: 5px 5px 15px rgb(240, 234, 234);
+     border-radius: 10px;
+     text-align: center;
+     float: left;
+}
+
+#menu{
+    float: left;   /* to arrange from left to right*/
+    
+}
+#menu li{   /* HOVER used to give the attributes for the mouse pointer when it is taken back from the menu*/
+    float: left;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-stretch:extra-expanded;
+    list-style-type: none;
+    cursor: pointer;   /* to make the hand symbol when placed in the menu */
+}
+
+#menu li:hover {
+    float: left;
+    margin-left: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: whitesmoke;
+    color:rgb(56, 54, 54);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#slide-area{
+    height: 300px;
+    background-color: rgba(213, 209, 163, 0.425);
+    
+}
+
+#slide-area #slideshow{
+    height: 100%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: rgb(27, 75, 87);    
+    position: relative;
+}
+
+#slide-area #slideshow #img1{
+    height: 100%;
+    width: 100%;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#left-icon{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+#right-icon{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    
+}
+
+#upicon{
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    width: 20px;
+    height: 20px;
+}
+#downicon{
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    width: 20px;
+    height: 20px;
+}
+
+.icon:hover{
+    transform: scale(1.5,1.5);
+}
+
+#footer{
+    text-align: center;
+    padding: 20px;
+}
