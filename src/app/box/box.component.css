@@ -1,0 +1,10 @@
+.box {
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+}

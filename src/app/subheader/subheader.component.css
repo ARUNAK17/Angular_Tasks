@@ -1,0 +1,15 @@
+.long-paragraph {
+    word-wrap: break-word; /* or word-break: break-all; */
+  }
+
+.long-paragraph {
+    width: 900px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    bottom: 100;
+  }
+  h1{
+    font-size: 20px;
+  }

@@ -1,0 +1,27 @@
+
+ #footer {
+    margin: auto;
+    background-color: rgb(251, 251, 251);
+    color: rgb(14, 13, 13);
+    padding: 40px;
+    
+  }
+  
+  #footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  
+#footer li:nth-child(2) {
+    padding-left: 500px;
+    color: greenyellow ;
+    font-size: large;
+  }
+  #footer li {
+    float:left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  

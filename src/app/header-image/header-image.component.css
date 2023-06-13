@@ -1,0 +1,19 @@
+
+#box{
+    margin-top: 10px;
+    height: 300px;
+    background-color: greenyellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+#box li {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+  }
+

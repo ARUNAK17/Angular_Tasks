@@ -1,0 +1,25 @@
+#main-menu{
+    overflow: hidden;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#main-menu ul {
+    display: inline;
+    margin-left: 100px;
+}
+
+#main-menu ul li {
+    margin-right: 1px;
+    list-style-type: none ;
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    float: left;
+}
+
+#main-menu  img{
+    height: 50px;
+    width: 50px;
+    padding-left: 600px;
+}
